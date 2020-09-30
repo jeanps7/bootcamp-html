@@ -4,24 +4,25 @@
 <head>
     <meta charset="utf-8">
     <title>Estrutura Inicial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <img src="wolverine.jpg" alt="Ilustração Wolverine">
-        <h1>Site de Livros</h1>
+        <img src="wolverine.jpg" alt="Ilustração Wolverine" class=photo>
+        <h1 id="title">Site de Livros</h1>
     </header>
     <section>
         <header>
-            <h2>Posts</h2>
+            <h2 class="subtitle">Posts</h2>
         </header>
-        <article>
+        <article class="post">
             <header>
-                <h3>Post #1</h3>
-                <img src="books.jfif" alt="Prateleiras de livros">
+                <h3 class="post_titles">Post #1</h3>
+                <img src="books.jfif" alt="Prateleiras de livros" class="post_img">
             </header>
-            <p>
-                Lorem Ipsum is <a href="https://www.google.com.br/" target="_blank">Clique aqui</a> simply dummy text
+            <p class="post_content">
+                Lorem Ipsum is <a href="https://www.google.com.br/" target="_blank" class="post_img">Clique aqui</a> simply dummy text
                 of the printing and typesetting
                 industry.
                 <a href="mailto:philip-j1@hotmail.com">Email</a> Lorem Ipsum has been the
@@ -37,7 +38,7 @@
         </article>
     </section>
     <footer>
-        <ol>
+        <ul class="contact_list">
             <li>
                 <a href="mailto:philip-j1@hotmail.com" target="_blank">Jean Philip </a>
             </li>
@@ -47,7 +48,7 @@
             <li>
                 <a href="www.google.com" target="_blank">Linkedin </a>
             </li>
-        </ol>
+        </ul>
     </footer>
 </body>
 
